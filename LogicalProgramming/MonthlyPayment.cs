@@ -23,7 +23,7 @@ namespace LogicalProgramming
             double n = 12 * yearsY;
             double r = rateOfInterestR / (12 * 100);
             double payment = (principalP * r) / (1 - Math.Pow((1 + r), (-n)));
-            Console.WriteLine("\nMonthly Payment = " + payment);
+            Console.WriteLine("\nMonthly Payment = Rs." + payment);
         }
     }
 }
